@@ -1,14 +1,18 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-import Home from "../pages/home";
+import LandingPage from "../pages/landing";
+import LoginPage from "../pages/login";
+import HomePage from "../pages/home";
 
 function App() {
 	return (
 		<>
 			<BrowserRouter>
 				<Routes>
-					<Route path="/" element={<Home />} />
+					<Route path="/" element={<LandingPage />} />
+					<Route path="/login" element={<LoginPage />} />
+					<Route path="/home" element={<HomePage />} />
 				</Routes>
 			</BrowserRouter>
 		</>
