@@ -4,7 +4,8 @@ import reset from "./reset";
 export default () => (
   <Global
     styles={css`
-      ${reset}
+      /* ${reset} */
+      margin: 0px;
     `}
   />
 );
