@@ -5,7 +5,7 @@ import * as theme from "../styles/theme";
 import Global from "../styles/global";
 
 import LandingPage from "../pages/landing";
-import LoginPage from "../pages/login";
+import LoginPage from "../pages/sign-in";
 import HomePage from "../pages/home";
 
 function App() {

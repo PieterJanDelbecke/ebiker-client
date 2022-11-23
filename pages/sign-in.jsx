@@ -30,7 +30,7 @@ const LoginPage = () => {
 
   return (
     <>
-      <h5>Login</h5>
+      <h5>Sign In</h5>
       <div>
         <label htmlFor="email">Email</label>
         <input
