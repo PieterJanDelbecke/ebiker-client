@@ -13,7 +13,21 @@ const SignUp = () => {
   const [postNumber, setPostNumber] = useState("");
   const [state, setState] = useState("");
 
-  const handleSubmit = () => {};
+  const handleSubmit = () => {
+    const inputs = {
+      email,
+      password,
+      rePassword,
+      streetName,
+      streetNumber,
+      unitNumber,
+      suburb,
+      postNumber,
+      state,
+    };
+
+    console.log("INPUTS:", inputs);
+  };
   return (
     <>
       <h5>SignUp</h5>
